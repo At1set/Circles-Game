@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+canvas {
+  display: block;
+}
+
+.block {
+  position: absolute;
+  width: 200px;
+  height: 40px;
+  right: 85px;
+  top: 20px;
+}
+
+input {
+  display: block;
+  width: 100%;
+}
