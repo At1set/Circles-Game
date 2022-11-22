@@ -8,10 +8,28 @@
   <title>Test</title>
 </head>
 <body>
-  <div class="block">
-    <input type="range">
+  <div class="menu-icon">i</div>
+  <div class="score-block unselectable"><span class="score">Count: 0</span></div>
+  <div class="menu">
+    <div class="menu__item">
+      <span class="unselectable">Count of circles:</span>
+      <input type="range" id="count">
+    </div>
+    <div class="menu__item">
+      <span class="unselectable">Radius of circles:</span>
+      <input type="range" id="weight">
+    </div>
+    <div class="menu__item">
+      <span class="unselectable">Speed of circles:</span>
+      <input type="range" id="speed">
+    </div>
+    <div class="menu__item">
+      <span class="unselectable time-to-resp">Time to respawn circles:</span>
+      <input type="range" id="respawn" max="6">
+    </div>
   </div>
   <canvas id="screen"></canvas>
   <script src="./script.js"></script>
 </body>
 </html>
+
